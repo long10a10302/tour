@@ -1,36 +1,74 @@
-@media screen and (min-width: 740px) and (max-width: 1024px) {
-    .top-header .top-header-left p {
-        color: var(--text-menu-color);
-        font-weight: 500;
-        font-size: 12px;
-    }
-    .top-header .top-header-right ul li {
-        font-size: 12px;
-        color: var(--text-menu-color);
-        font-weight: 500;
-        display: inline-block;
-        margin-top: 10px;
-        margin-right: 10px;
-        padding-right: 10px;
-        border-right: 1px solid var(--text-menu-color);
-    }
-}
+@media (max-width: 1024px) {}
 
-@media screen and (max-width: 739px) {
+@media (max-width: 767px) {
     .top-header .top-header-left p {
-        color: var(--text-menu-color);
-        font-weight: 500;
         font-size: 12px;
-        overflow: hidden;
     }
-    .top-header .top-header-right ul li {
+    .top-header .top-header-right {
         font-size: 12px;
+    }
+    .header-icon {
+        display: none;
+    }
+    .container-info {
+        display: none !important;
+    }
+    .web-info .top-header-left img {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .web-info .top-header-right ul li strong {
+        font-size: 30px;
+    }
+    .web-info .top-header-right ul li button {
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgb(177, 171, 171);
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
+    .web-info .top-header-right ul li .fa-search {
         color: var(--text-menu-color);
-        font-weight: 500;
+        opacity: 0.8;
+        font-size: 10px;
+    }
+    .web-info .top-header-right ul li {
         display: inline-block;
         margin-top: 10px;
-        margin-right: 10px;
-        padding-right: 10px;
-        border-right: 1px solid var(--text-menu-color);
+        margin-left: 10px;
+        padding: 0;
+    }
+    .overlay {
+        display: block;
+    }
+    .section-hero .intro {
+        position: absolute;
+        width: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .intro .intro-item {
+        padding-left: 20px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #ffffff;
+        font-size: 10px;
+    }
+    .intro .tittle h2 {
+        color: white;
+        text-transform: uppercase;
+        padding-left: 20px;
+        margin: 0;
+        font-size: 10px;
+    }
+    .intro-item .sub-header i {
+        font-size: 10px;
+    }
+    .intro-item .intro-prices span:nth-child(1) {
+        font-size: 12px;
+        font-weight: 500;
     }
 }
