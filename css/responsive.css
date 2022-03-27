@@ -1,4 +1,43 @@
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .intro .intro-item {
+        padding-left: 20px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #ffffff;
+        font-size: 10px;
+    }
+    .intro .tittle h2 {
+        color: white;
+        text-transform: uppercase;
+        padding-left: 20px;
+        margin: 0;
+        font-size: 10px;
+    }
+    .intro-item .sub-header i {
+        font-size: 10px;
+    }
+    .intro-item .intro-prices span:nth-child(1) {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .places-item-left img {
+        width: 100%;
+        height: 405px;
+    }
+    .header-left {
+        font-size: 15px;
+    }
+    .section-wrapper {
+        margin: 0;
+        background-color: #F0F9FB;
+    }
+    .photo-blog,
+    .tag-blog {
+        display: none;
+    }
+}
 
 @media (max-width: 767px) {
     .top-header .top-header-left p {
@@ -8,7 +47,7 @@
         font-size: 12px;
     }
     .header-icon {
-        display: none;
+        display: none !important;
     }
     .container-info {
         display: none !important;
@@ -70,5 +109,55 @@
     .intro-item .intro-prices span:nth-child(1) {
         font-size: 12px;
         font-weight: 500;
+    }
+    .col-lg-4 .row .col-lg-4,
+    .col-lg-9 .row .col-lg-6:nth-child(2) {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .active_button {
+        width: 60px;
+        height: 50px;
+        font-size: 7px;
+        background-color: rgb(204, 204, 204) !important;
+    }
+    .header-left {
+        font-size: 15px;
+    }
+    .header-right {
+        margin-top: 20px;
+        display: flex;
+        justify-content: flex-start !important;
+    }
+    .header-right button {
+        font-size: 7px;
+    }
+    .tour-item .list-tour .booking-tour {
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .places-item-bot-left,
+    .places-item-bot-right,
+    .places-item-left,
+    .places-item-right {
+        margin-bottom: 10px;
+    }
+    /* -------------------------------------------------------- */
+    .section-wrapper {
+        margin: 0;
+        background-color: #F0F9FB;
+    }
+    #myBtnContainer button {
+        border: none;
+        padding: 0;
+        font-size: 13px;
+        background-color: transparent;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .tag-blog {
+        display: none;
     }
 }

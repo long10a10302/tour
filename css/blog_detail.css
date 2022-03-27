@@ -63,6 +63,10 @@
         background-color: transparent;
     }
     
+    .section-news {
+        margin-bottom: 30px;
+    }
+    
     .section-news .news-content {
         background-color: #ffffff;
         height: 340px;

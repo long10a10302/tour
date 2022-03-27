@@ -8,6 +8,10 @@
     --text-white: #ffffff;
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -388,6 +392,10 @@ span.psw {
 
 footer {
     background-color: #192166;
+}
+
+footer .logo {
+    padding-top: 50px;
 }
 
 .footer-content {

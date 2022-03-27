@@ -119,3 +119,52 @@
 .show {
     display: block;
 }
+
+@media (max-width: 1024px) {
+    .header-blog .header-blog-right {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .section-wrapper .search-blog {
+        display: none;
+    }
+    .header-right {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .tag-blog,
+    .photo-blog,
+    .recent-post,
+    .categories-blog {
+        padding: 10px 10px;
+        margin-top: 0px;
+        background-color: #ffffff;
+    }
+    .post-item .row .col-lg-6 {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-blog .header-blog-right {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+    .section-wrapper .photo-blog,
+    .section-wrapper .search-blog {
+        display: none;
+    }
+    .pagination-blog {
+        display: none;
+    }
+    .tag-blog,
+    .photo-blog,
+    .recent-post,
+    .categories-blog {
+        padding: 10px 10px;
+        margin-top: 0px;
+        background-color: #ffffff;
+    }
+}

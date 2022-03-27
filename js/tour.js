@@ -74,13 +74,13 @@
    }
    $(document).on('click', '#grid', function() {
        $('.list-group').removeClass('col-lg-12');
-       $('.list-group').addClass('col-lg-4 ')
+       $('.list-group').addClass('col-lg-4 col-md-6')
        $("#grid i").addClass('active_display');
        $('#list i').toggleClass('active_display');
    })
    $(document).on('click', '#list', function() {
        $('.list-group').addClass('col-lg-12');
-       $('.list-group').removeClass('col-lg-4 ')
+       $('.list-group').removeClass('col-lg-4 col-md-6')
        $("#list i").addClass('active_display');
        $('#grid i').removeClass('active_display');
    })

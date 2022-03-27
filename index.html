@@ -61,7 +61,7 @@
                 <div class="">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                         <div class="container">
-                            <a class="navbar-brand" href="#"> <img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_logo_mytour.svg" alt="">
+                            <a class="navbar-brand" href="index.html"> <img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_logo_mytour.svg" alt="">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -70,14 +70,14 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Trang chủ <span class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                           Tour
                           </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Các tour</a>
+                                            <a class="dropdown-item" href="tour.html">Các tour</a>
                                             <a class="dropdown-item" href="#">Chi tiết tour</a>
 
                                     </li>
@@ -89,8 +89,8 @@
                           Blog
                           </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">Bài viết </a>
-                                            <a class="dropdown-item" href="#">Chi tiết bài viết</a>
+                                            <a class="dropdown-item" href="blog.html">Bài viết </a>
+                                            <a class="dropdown-item" href="blog_detail.html">Chi tiết bài viết</a>
                                             <div class="dropdown-divider"></div>
                                         </div>
                                     </li>
@@ -240,7 +240,7 @@
                     <div class=" container tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                         <div class="hotel-select">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-12">
                                     <div class="places">
                                         <label for="">Địa điểm</label><br>
                                         <select name="places" id="places">
@@ -253,25 +253,25 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-12">
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <label for=""> Ngày đến</label><br>
                                             <input type="text" id="day-go" placeholder="Nhập ngày đến">
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <label for="">Ngày về</label><br>
                                             <input type="text" id="day-out" placeholder="Nhập ngày về">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-12">
                                     <div class="row">
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-8 col-md-8 col-12">
                                             <label for="">Số phòng</label>
                                             <input type="text" placeholder="Nhập số phòng">
                                         </div>
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-4 col-md-4 col-12">
                                             <div>
                                                 <button><i class="fa fa-search"></i></button>
                                             </div>
@@ -282,70 +282,9 @@
                         </div>
                     </div>
                     <div class=" container tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <div class="plane-select">
+                        <div class="hotel-select">
                             <div class="row">
-                                <div class="col-lg-4">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="places">
-                                                <label for="">Từ</label><br>
-                                                <select name="places" id="places">
-                                                    <option>Hà Nội</option>
-                                                    <option>Thành Phố Hồ Chí Minh</option>
-                                                    <option >Nha Trang</option>
-                                                    <option value="">Đà Nẵng</option>
-                                                    <option value="">Quảng Ninh</option>
-                                                    <option value="">Huế</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="places">
-                                                <label for="">Đến</label><br>
-                                                <select name="places" id="places">
-                                                <option>Hà Nội</option>
-                                                <option>Thành Phố Hồ Chí Minh</option>
-                                                <option >Nha Trang</option>
-                                                <option value="">Đà Nẵng</option>
-                                                <option value="">Quảng Ninh</option>
-                                                <option value="">Huế</option>
-                                            </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <label for=""> Ngày đến</label><br>
-                                            <input type="text" id="day-come" placeholder="Nhập ngày đến">
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <label for="">Ngày về</label><br>
-                                            <input type="text" id="day-return" placeholder="Nhập ngày về">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="row">
-                                        <div class="col-lg-8">
-                                            <label for="">Số khách</label>
-                                            <input type="text" placeholder="Nhập số khách">
-                                        </div>
-                                        <div class="col-lg-4 btn-search">
-                                            <div>
-                                                <button class="btn-search"><i class="fa fa-search"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" container tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        <div class="restaurant-select">
-                            <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-4 col-md-4 col-12">
                                     <div class="places">
                                         <label for="">Địa điểm</label><br>
                                         <select name="places" id="places">
@@ -358,13 +297,57 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lg-4 col-md-4 col-12">
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <label for=""> Ngày đến</label><br>
+                                            <input type="text" id="day-go" placeholder="Nhập ngày đến">
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <label for="">Ngày về</label><br>
+                                            <input type="text" id="day-out" placeholder="Nhập ngày về">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-12">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-12">
+                                            <label for="">Số phòng</label>
+                                            <input type="text" placeholder="Nhập số phòng">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <div>
+                                                <button><i class="fa fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" container tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="restaurant-select">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-12">
+                                    <div class="places">
+                                        <label for="">Địa điểm</label><br>
+                                        <select name="places" id="places">
+                                            <option>Hà Nội</option>
+                                            <option>Thành Phố Hồ Chí Minh</option>
+                                            <option >Nha Trang</option>
+                                            <option value="">Đà Nẵng</option>
+                                            <option value="">Quảng Ninh</option>
+                                            <option value="">Huế</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9 col-12">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <label for="">Tìm kiếm</label>
                                             <input type="text" placeholder="Tên nhà hàng, món ăn, vocher">
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <button><i class="fa fa-search"></i></button>
                                         </div>
                                     </div>
@@ -379,13 +362,13 @@
                 <div class="tour-header">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-5 col-12">
                                 <div class="header-left">
                                     <span>Tour</span>
                                     <span>Đang hot</span>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-7 col-12">
                                 <div class="header-right">
                                     <div id="myBtnContainer">
                                         <button class="active_button" id="all" onclick="filterSelection('all')"> Tất cả tour</button>
@@ -400,7 +383,7 @@
                 <div class="tour-item">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <div class=" filterDiv in-country">
                                     <div class="list-tour">
                                         <div class="slider-img">
@@ -408,18 +391,18 @@
                                                 <img src="./img/1.jpg" alt="">
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <a href="tour.html">
                                             <h5>Tour Hà Nội - Đà Nẵng</h5>
                                         </a>
                                         <span>3 ngày 2 đêm</span>
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="prices">
                                                     <span>Từ</span>
                                                     <span>3.750.000 <span>đ</span></span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="booking-tour">
                                                     <span><a href="">Đặt ngay</a></span>
                                                 </div>
@@ -429,7 +412,7 @@
 
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="filterDiv in-country">
                                     <div class="list-tour ">
                                         <div class="slider-img">
@@ -437,18 +420,18 @@
                                                 <img src="./img/2.jpg" alt="">
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <a href="tour.html">
                                             <h5>Tour Hà Nội - Phú Quốc</h5>
                                         </a>
                                         <span>3 ngày 2 đêm</span>
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="prices">
                                                     <span>Từ</span>
                                                     <span>3.820.000 <span>đ</span></span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="booking-tour">
                                                     <span><a href="#">Đặt ngay</a></span>
                                                 </div>
@@ -457,7 +440,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="filterDiv in-country">
                                     <div class="list-tour">
                                         <div class="slider-img">
@@ -465,18 +448,18 @@
                                                 <img src="./img/3.jpg" alt="">
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <a href="tour.html">
                                             <h5>Tour Hà Nội - Thành Phố HCM</h5>
                                         </a>
                                         <span>4 ngày 3 đêm</span>
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="prices">
                                                     <span>Từ</span>
                                                     <span>3.450.000 <span>đ</span></span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="booking-tour">
                                                     <span><a href="#">Đặt ngay</a></span>
                                                 </div>
@@ -485,7 +468,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="filterDiv out-country">
                                     <div class="list-tour">
                                         <div class="slider-img">
@@ -493,18 +476,18 @@
                                                 <img src="./img/4.jpg" alt="">
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <a href="tour.html">
                                             <h5>Tour Hà Nội - Seoul</h5>
                                         </a>
                                         <span>6 ngày 5 đêm</span>
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="prices">
                                                     <span>Từ</span>
                                                     <span>18.500.000<span>đ</span></span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="booking-tour">
                                                     <span><a href="#">Đặt ngay</a></span>
                                                 </div>
@@ -513,7 +496,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="filterDiv out-country">
                                     <div class="list-tour">
                                         <div class="slider-img">
@@ -521,18 +504,18 @@
                                                 <img src="./img/6.jpg" alt="">
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <a href="tour.html">
                                             <h5>Tour Hà Nội - Singapore</h5>
                                         </a>
                                         <span>5 ngày 4 đêm</span>
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="prices">
                                                     <span>Từ</span>
                                                     <span>8.000.000 <span>đ</span></span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="booking-tour">
                                                     <span><a href="#">Đặt ngay</a></span>
                                                 </div>
@@ -541,7 +524,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 col-md-6">
                                 <div class="filterDiv out-country">
                                     <div class="list-tour">
                                         <div class="slider-img">
@@ -549,18 +532,18 @@
                                                 <img src="./img/5.jpg" alt="">
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <a href="tour.html">
                                             <h5>Tour Hà Nội - Tokyo</h5>
                                         </a>
                                         <span>5 ngày 4 đêm</span>
                                         <div class="row">
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="prices">
                                                     <span>Từ</span>
                                                     <span>22.000.000 <span>đ</span></span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6">
+                                            <div class="col-lg-6 col-md-6">
                                                 <div class="booking-tour">
                                                     <span><a href="#">Đặt ngay</a></span>
                                                 </div>
@@ -588,44 +571,44 @@
                 <div class="places-list">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-12">
                                 <div class="places-item-left">
                                     <div class="places-banner-left">
                                         <img src="./img/7.jpg" alt="">
                                     </div>
                                     <div class="places-text" align="center">
-                                        <p><a href="#">Biển nha trang</a></p>
+                                        <p><a href="tour.html">Biển nha trang</a></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6 col-12">
                                 <div class="places-item-right">
                                     <div class="places-item-top-right">
                                         <div>
                                             <img src="./img/8.jpg" alt="" height="50px">
                                         </div>
                                         <div class="places-text">
-                                            <p><a href="#">Vịnh Hạ Long</a></p>
+                                            <p><a href="tour.html">Vịnh Hạ Long</a></p>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <div class="places-item-bot-left">
                                                 <div>
                                                     <img src="./img/9.jpg" alt="">
                                                 </div>
                                                 <div class="places-text">
-                                                    <p><a href="#">núi bà đen</a></p>
+                                                    <p><a href="tour.html">núi bà đen</a></p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <div class="places-item-bot-right">
                                                 <div>
                                                     <img src="./img/10.jpg" alt="">
                                                 </div>
                                                 <div class="places-text">
-                                                    <p><a href="#">đỉnh yên sơn</a></p>
+                                                    <p><a href="tour.html">đỉnh yên sơn</a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -648,16 +631,16 @@
                 <div class="news-list">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="news-content">
                                     <img src="./img/11.jpg" alt="">
-                                    <h4><a href="#">Top 5 điểm cắm trại quanh hà nội siêu hấp dẫn phải dụ "cạ cứng" đi ngay </a></h4>
+                                    <h4><a href="blog_detail.html">Top 5 điểm cắm trại quanh hà nội siêu hấp dẫn phải dụ "cạ cứng" đi ngay </a></h4>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-6">
                                 <div class="news-content">
                                     <img src="./img/12.jpg" alt="">
-                                    <h4><a href="#">Điểm du lịch Pleiku khiến bạn muốn xách balo lên và đi ngay</a></h4>
+                                    <h4><a href="blog_detail.html">Điểm du lịch Pleiku khiến bạn muốn xách balo lên và đi ngay</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -676,10 +659,10 @@
                 <div class="list-partner">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-3"><img src="./img/1.png" alt=""></div>
-                            <div class="col-lg-3"><img src="./img/2.png" alt=""></div>
-                            <div class="col-lg-3"><img src="./img/3.png" alt=""></div>
-                            <div class="col-lg-3"><img src="./img/4.png" alt=""></div>
+                            <div class="col-lg-3 col-md-6"><img src="./img/1.png" alt=""></div>
+                            <div class="col-lg-3 col-md-6"><img src="./img/2.png" alt=""></div>
+                            <div class="col-lg-3 col-md-6"><img src="./img/3.png" alt=""></div>
+                            <div class="col-lg-3 col-md-6"><img src="./img/4.png" alt=""></div>
                         </div>
                     </div>
                 </div>

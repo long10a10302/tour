@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
 </head>
 
@@ -27,10 +28,10 @@
                                 <p>Thứ 2- Thứ 7 08.00 AM - 18:00 AM</p>
                             </div>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-8">
+                        <div class="col-lg-8  col-md-8 col-8">
                             <div class="top-header-right">
                                 <ul>
-                                    <li>
+                                    <li class="header-icon">
                                         <i class="fa fa-facebook"></i>
                                         <i class="fa fa-twitter" aria-hidden="true"></i>
                                         <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -50,112 +51,71 @@
                     </div>
                 </div>
             </div>
-            <div class="web-info">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="top-header-left">
-                                <img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_logo_mytour.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-8">
-                            <div class="top-header-right">
-                                <ul>
-                                    <li>
-                                        <ul>
-                                            <li>
-                                                <strong class="fa fa-volume-control-phone" aria-hidden="true"></strong>
-                                            </li>
-                                            <li>
-                                                <span>1900 2083</span><br>
-                                                <span>hotro@mytour.vn</span>
-                                            </li>
-                                            <li></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <button> <i class="fa fa-search"></i></button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
         <main>
             <section class="section-hero">
                 <div class="banner">
-                    <div class="container">
-                        <div class="nav-bar">
+                    <div class="">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-7">
-                                        <ul class="list-link">
-                                            <li>
-                                                <a href="./index.html">
-                                                   Trang chủ
-                                                </a>
+                                <a class="navbar-brand" href="index.html"> <img src="https://storage.googleapis.com/tripi-assets/mytour/icons/icon_logo_mytour.svg" alt="">
+                                </a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
 
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                    Tour
-                                                    <i class="fa fa-chevron-down"></i>
-                                                </a>
-                                                <ul class="sub-nav">
-                                                    <li><a href="./tour.html">Các Tour</a></li>
-                                                    <li><a href="#">Chi tiết Tour</a></li>
-                                                </ul>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  Tour
+                                  </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="tour.html">Các tour</a>
+                                                <a class="dropdown-item" href="#">Chi tiết tour</a>
 
-                                            </li>
-                                            <li>
-                                                <a href="">
-                                                  Chuyến bay
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                Bài viết
-                                                    <i class="fa fa-chevron-down"></i>
-                                                </a>
-                                                <ul class="sub-nav">
-                                                    <li><a href="./blog.html">Bài viết</a></li>
-                                                    <li><a href="./blog_detail.html">Chi tiết bài viết</a></li>
-                                                </ul>
-
-                                            </li>
-                                            <li><a href="">Liên Hệ</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-lg-5 no-padding">
-                                        <ul class="list-authentiation">
-                                            <li>
-                                                <span id="login">
-                                                <i class="fa fa-user-o" aria-hidden="true"></i> Đăng Nhập
-                                                </span>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Chuyến bay <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  Blog
+                                  </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="blog.html">Bài viết </a>
+                                                <a class="dropdown-item" href="blog_detail.html">Chi tiết bài viết</a>
+                                                <div class="dropdown-divider"></div>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Liên hệ<span class="sr-only">(current)</span></a>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-authentiation">
+                                        <li>
+                                            <span id="login">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> Đăng Nhập
+                                        </span>
 
 
-                                            </li>
-                                            <li>
-                                                <span id="signup">
-                                                    <i class="fa fa-pencil" aria-hidden="true"></i> Đăng Ký
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <button>
-                                                <i class="fa fa-plus"></i>
-                                                Submit property
-                                                </button>
-                                            </li>
-                                        </ul>
+                                        </li>
+                                        <li>
+                                            <span id="signup">
+                                            <i class="fa fa-pencil" aria-hidden="true"></i> Đăng Ký
+                                        </span>
+                                        </li>
+                                        <li>
+
+                                    </ul>
                                     </div>
                                 </div>
-                            </div>
+                        </nav>
                         </div>
                     </div>
-                </div>
             </section>
             <section class="section-wrapper">
                 <div class="container">
@@ -253,55 +213,54 @@
                         <div class="col-lg-8">
                             <div>
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/11.jpg" alt="">
-                                            <h4><a href="#">Top 5 điểm cắm trại quanh hà nội siêu hấp dẫn phải dụ "cạ cứng" đi ngay </a></h4>
+                                            <h4><a href="./blog_detail.html">Top 5 điểm cắm trại quanh hà nội siêu hấp dẫn phải dụ "cạ cứng" đi ngay </a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/12.jpg" alt="">
-                                            <h4><a href="#">Điểm du lịch Pleiku khiến bạn muốn xách balo lên và đi ngay</a></h4>
+                                            <h4><a href="./blog_detail.html">Điểm du lịch Pleiku khiến bạn muốn xách balo lên và đi ngay</a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/13.jpg" alt="">
-                                            <h4><a href="#">Du lịch tại chỗ - Xu hướng du lịch mùa Covid </a></h4>
+                                            <h4><a href="./blog_detail.html">Du lịch tại chỗ - Xu hướng du lịch mùa Covid </a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/14.jpg" alt="">
-                                            <h4><a href="#">Kết hợp du lịch và chụp ảnh cưới</a></h4>
+                                            <h4><a href="./blog_detail.html">Kết hợp du lịch và chụp ảnh cưới</a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/15.jpg" alt="">
-                                            <h4><a href="#">Sáng Tạo Hay Là Chết, Mytour Liều Lĩnh Mở Tour Trải Nghiệm Khám Phá </a></h4>
+                                            <h4><a href="./blog_detail.html">Sáng Tạo Hay Là Chết, Mytour Liều Lĩnh Mở Tour Trải Nghiệm Khám Phá </a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/16.jpg" alt="">
-                                            <h4><a href="#">Câu Chuyện Của Làng Nương</a></h4>
+                                            <h4><a href="./blog_detail.html">Câu Chuyện Của Làng Nương</a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/17.jpg" alt="">
-                                            <h4><a href="#">Du lịch đến thành phố không ngủ</a></h4>
+                                            <h4><a href="./blog_detail.html">Du lịch đến thành phố không ngủ</a></h4>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-6 col-md-6">
                                         <div class="news-content">
                                             <img src="./img/18.jpg" alt="">
-                                            <h4><a href="#">Du Lịch Khám Phá Miền Trung - Xu Hướng Hấp Dẫn Du Khách</a></h4>
+                                            <h4><a href="./blog_detail.html">Du Lịch Khám Phá Miền Trung - Xu Hướng Hấp Dẫn Du Khách</a></h4>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                             <div class="pagination-blog">
@@ -335,7 +294,6 @@
                     </div>
                 </div>
             </section>
-
         </main>
         <footer>
             <div class="container">
